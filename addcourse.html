@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add Course</title>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+
+        <header>
+            <h1>Course Manager Website</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "courses.html">My Courses</a></li>
+                <li><a href = "addcourse.html" class="active">Add Course</a></li>
+                <li><a href = "contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <h2>Add New Course</h2>
+                <form method="POST">
+                    <div class="form-group">
+                        <label for="courseName">Course Name</label>
+                        <input type="text" id="courseName" placeholder="e.g. Web Development"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="instructor">Instructor</label>
+                        <input type="text" id="instructor" placeholder="e.g. Dr. Thing"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="creditHours">Credit Hours</label>
+                        <input type="text" id="courseName" placeholder="e.g. 3 Hours"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="notes">Notes</label>
+                        <textarea type="text" id="Notes" rows="4" placeholder="e.g. This Course is about XYZ"></textarea>
+                    </div>
+                    <button type="submit">Add Course</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright 2026 Hamza Ahmed Mohamed</p>
+        </footer>
+    </body>
+</html>

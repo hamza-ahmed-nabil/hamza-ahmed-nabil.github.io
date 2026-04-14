@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+
+        <header>
+            <h1>Course Manager Website</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "courses.html">My Courses</a></li>
+                <li><a href = "addcourse.html">Add Course</a></li>
+                <li><a href = "contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <h2>Contact Us</h2>
+                <p>Have a question or feedback? Fill out the form below and we'll get back to you!</p>
+
+                <form method="POST">
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" id="fullName" placeholder="e.g. Ahmed Ahmed"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="e.g. ahmed.ahmed@gmail.com"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" placeholder="e.g. Feedback about XYZ"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" placeholder="Write your message here..."></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright 2026 Hamza Ahmed Mohamed</p>
+        </footer>
+    </body>
+</html>
