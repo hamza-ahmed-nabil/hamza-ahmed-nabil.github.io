@@ -49,7 +49,7 @@ nav ul li a.active {
     border-bottom: 3px solid white;
 }
 
-/* --- MAIN AND SECTION ---*/
+/* --- MAIN AND SECTION --- */
 main {
     padding: 30px;
     flex-grow: 1;
@@ -70,7 +70,7 @@ section p {
     line-height: 1.6;
 }
 
-/* ---FOOTER ---*/
+/* --- FOOTER --- */
 footer {
     background-color: #1a1a2e;
     color: white;
@@ -146,7 +146,7 @@ button[type="submit"]:hover {
     background-color: #1a1a2e;
 }
 
-/* RESPONSIVITY */
+/* --- RESPONSIVITY --- */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
@@ -168,7 +168,7 @@ button[type="submit"]:hover {
         flex-direction: column;
     }
 }
-/* ---HERO--- */
+/* --- HERO --- */
 .hero {
     background: linear-gradient(135deg, #1a1a2e, #0f3460, #16213e);
     color: white;
